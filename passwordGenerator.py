@@ -13,13 +13,13 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 password = []
 
-for x in range(nr_letters):
+for char in range(nr_letters):
   password.append(random.choice(letters))
 
-for x in range(nr_symbols):
+for char in range(nr_symbols):
   password.append(random.choice(symbols))
 
-for x in range(nr_numbers):
+for char in range(nr_numbers):
   password.append(random.choice(numbers))
 
 print(password)
